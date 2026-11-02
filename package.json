@@ -1,0 +1,26 @@
+{
+  "name": "quizora",
+  "version": "1.0.0",
+  "description": "Quizora — Quiz Management & Performance Tracking Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node backend/utils/seed.js",
+    "create-admin": "node backend/utils/createAdmin.js"
+  },
+  "keywords": ["quiz", "education", "assessment", "nodejs", "mongodb"],
+  "author": "Akash",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}
